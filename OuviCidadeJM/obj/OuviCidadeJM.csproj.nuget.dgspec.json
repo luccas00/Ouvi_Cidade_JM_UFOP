@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MVC_EngSoftware\\OuviCidadeJM\\OuviCidadeJM.csproj": {}
+    "D:\\Eng.-Software-I\\OuviCidadeJM\\OuviCidadeJM.csproj": {}
   },
   "projects": {
-    "D:\\MVC_EngSoftware\\OuviCidadeJM\\OuviCidadeJM.csproj": {
+    "D:\\Eng.-Software-I\\OuviCidadeJM\\OuviCidadeJM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MVC_EngSoftware\\OuviCidadeJM\\OuviCidadeJM.csproj",
+        "projectUniqueName": "D:\\Eng.-Software-I\\OuviCidadeJM\\OuviCidadeJM.csproj",
         "projectName": "OuviCidadeJM",
-        "projectPath": "D:\\MVC_EngSoftware\\OuviCidadeJM\\OuviCidadeJM.csproj",
+        "projectPath": "D:\\Eng.-Software-I\\OuviCidadeJM\\OuviCidadeJM.csproj",
         "packagesPath": "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\",
-        "outputPath": "D:\\MVC_EngSoftware\\OuviCidadeJM\\obj\\",
+        "outputPath": "D:\\Eng.-Software-I\\OuviCidadeJM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

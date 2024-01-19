@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nOrDR66F2NJS0BoNKxoD5u4zZXPu26/Jr7TNnBxUwCt/35gW4TZyisf6lqIKN4RmGisUGbRbNE+c32eOpuGhQw==",
+  "dgSpecHash": "4pv7kGR7rKK72iyQaywObRyPGTshR7cTfs+lj4WJl15+xHttj+UiIAGXotXuSIrEa6ImdeJlqHMCZjIXhziBvw==",
   "success": true,
-  "projectFilePath": "D:\\MVC_EngSoftware\\OuviCidadeJM\\OuviCidadeJM.csproj",
+  "projectFilePath": "D:\\Eng.-Software-I\\OuviCidadeJM\\OuviCidadeJM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
