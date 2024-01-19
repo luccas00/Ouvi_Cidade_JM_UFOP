@@ -10,7 +10,7 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
-        builder.Services.AddDbContext<ContatosContext>(options =>
+        builder.Services.AddDbContext<WebAppContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao"))
         );
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4pv7kGR7rKK72iyQaywObRyPGTshR7cTfs+lj4WJl15+xHttj+UiIAGXotXuSIrEa6ImdeJlqHMCZjIXhziBvw==",
+  "dgSpecHash": "zQ0xq2iktUEIVIdYFv1AkuX+qIYo+rYj9s3LwvxTCmC17uownGIXQu4W9qYzDlcBBhMF1d0FmR+KVSnC/X+Upw==",
   "success": true,
   "projectFilePath": "D:\\Eng.-Software-I\\OuviCidadeJM\\OuviCidadeJM.csproj",
   "expectedPackageFiles": [
@@ -82,7 +82,7 @@
     "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.15\\microsoft.entityframeworkcore.design.7.0.15.nupkg.sha512",
     "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.15\\microsoft.entityframeworkcore.relational.7.0.15.nupkg.sha512",
     "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.15\\microsoft.entityframeworkcore.sqlserver.7.0.15.nupkg.sha512",
-    "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.10\\microsoft.entityframeworkcore.tools.7.0.10.nupkg.sha512",
+    "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.15\\microsoft.entityframeworkcore.tools.7.0.15.nupkg.sha512",
     "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

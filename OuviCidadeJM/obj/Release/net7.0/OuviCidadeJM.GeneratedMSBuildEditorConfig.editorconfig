@@ -9,57 +9,121 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OuviCidadeJM
 build_property.RootNamespace = OuviCidadeJM
-build_property.ProjectDir = D:\MVC_EngSoftware\OuviCidadeJM\
+build_property.ProjectDir = D:\Eng.-Software-I\OuviCidadeJM\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\MVC_EngSoftware\OuviCidadeJM
+build_property.MSBuildProjectDirectory = D:\Eng.-Software-I\OuviCidadeJM
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/Contatos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcQ3JlYXRlLmNzaHRtbA==
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Contato/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/Contatos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRGVsZXRlLmNzaHRtbA==
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Contato/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/Contatos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRGV0YWlscy5jc2h0bWw=
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Contato/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/Contatos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRWRpdC5jc2h0bWw=
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Contato/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/Contatos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcSW5kZXguY3NodG1s
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Contato/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/Home/Index.cshtml]
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Home/Contato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/Home/Privacy.cshtml]
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/Shared/Error.cshtml]
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Manifestacao/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaWZlc3RhY2FvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Manifestacao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaWZlc3RhY2FvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Manifestacao/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaWZlc3RhY2FvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Manifestacao/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaWZlc3RhY2FvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Manifestacao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaWZlc3RhY2FvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Noticia/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Noticia/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Noticia/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Noticia/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Noticia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/_ViewImports.cshtml]
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Usuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/_ViewStart.cshtml]
+[D:/Eng.-Software-I/OuviCidadeJM/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MVC_EngSoftware/OuviCidadeJM/Views/Shared/_Layout.cshtml]
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mpy4kai0p8

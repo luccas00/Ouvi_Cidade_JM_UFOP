@@ -8,14 +8,14 @@ namespace OuviCidadeJM.Models
 {
     public class Contato
     {
-        public string Nome { get; set; }
-        public string Telefone { get; set; }
+        public string? Nome { get; set; }
+        public string? Telefone { get; set; }
 
         [Key]
         public string CPF { get; set; }
         public DateTime? DataNascimento { get; set; }
-        public int Idade { get; set; }
-        public bool Ativo { get; set; }
+        public int? Idade { get; set; }
+        public bool? Ativo { get; set; }
 
     }
 }

@@ -16,24 +16,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Eng.-Software-I\OuviCidadeJM
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Eng.-Software-I/OuviCidadeJM/Views/Contatos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcQ3JlYXRlLmNzaHRtbA==
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Contato/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Eng.-Software-I/OuviCidadeJM/Views/Contatos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRGVsZXRlLmNzaHRtbA==
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Contato/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Eng.-Software-I/OuviCidadeJM/Views/Contatos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRGV0YWlscy5jc2h0bWw=
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Contato/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Eng.-Software-I/OuviCidadeJM/Views/Contatos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRWRpdC5jc2h0bWw=
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Contato/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Eng.-Software-I/OuviCidadeJM/Views/Contatos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcSW5kZXguY3NodG1s
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Contato/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Home/Contato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Eng.-Software-I/OuviCidadeJM/Views/Home/Index.cshtml]

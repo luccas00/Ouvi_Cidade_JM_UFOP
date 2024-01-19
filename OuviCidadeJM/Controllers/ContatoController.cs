@@ -10,11 +10,11 @@ using OuviCidadeJM.Models;
 
 namespace OuviCidadeJM.Controllers
 {
-    public class ContatosController : Controller
+    public class ContatoController : Controller
     {
-        private readonly ContatosContext _context;
+        private readonly WebAppContext _context;
 
-        public ContatosController(ContatosContext context)
+        public ContatoController(WebAppContext context)
         {
             _context = context;
         }
