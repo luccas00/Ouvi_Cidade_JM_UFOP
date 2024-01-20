@@ -48,6 +48,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Log/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Log/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Log/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Log/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Eng.-Software-I/OuviCidadeJM/Views/Log/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Eng.-Software-I/OuviCidadeJM/Views/Manifestacao/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaWZlc3RhY2FvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

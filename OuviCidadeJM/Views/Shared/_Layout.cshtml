@@ -30,6 +30,23 @@
                         </li>
                     </ul>
                 </div>
+                <div class="ml-auto collapse d-sm-inline-flex">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Contato" asp-action="Index">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Index">Usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Manifestacao" asp-action="Index">Manifestações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Noticia" asp-action="Index">Notícias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Log" asp-action="Index">Log</a>
+                    </li>
+                </div>
             </div>
         </nav>
     </header>
@@ -40,8 +57,25 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div class="container d-flex justify-content-between">
             &copy; 2024 - OuviCidadeJM - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="ml-auto collapse d-sm-inline-flex">
+                <li>
+                    <a asp-area="" asp-controller="Contato" asp-action="Index"> Contatos  -</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-area="" asp-controller="Usuario" asp-action="Index"> Usuarios  -</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-area="" asp-controller="Manifestacao" asp-action="Index"> Manifestações  -</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-area="" asp-controller="Noticia" asp-action="Index"> Notícias  -</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-area="" asp-controller="Log" asp-action="Index"> Log  -</a>
+                </li>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

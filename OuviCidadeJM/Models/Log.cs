@@ -4,11 +4,11 @@ namespace OuviCidadeJM.Models
 {
     public class Log
     {
-        public string? Resumo;
-        public string? Texto;
-        public Usuario? Proprietario;
+        public string? Resumo { get; set; }
+        public string? Texto { get; set; }
+        public Usuario? Proprietario { get; set; }
         [Key]
-        public string Id;
+        public string Id { get; set; }
 
     }
 }

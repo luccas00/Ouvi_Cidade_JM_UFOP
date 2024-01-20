@@ -13,6 +13,7 @@ namespace OuviCidadeJM.Context
         public DbSet<Manifestacao> Manifestacoes { get; set; }
         public DbSet<Noticia> Noticias { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Log> Logs { get; set; }
 
     }
 }
