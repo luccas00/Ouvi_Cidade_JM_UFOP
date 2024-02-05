@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OuviCidadeV3.props" />
+</Project>

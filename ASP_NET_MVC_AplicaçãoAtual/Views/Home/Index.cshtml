@@ -1,0 +1,53 @@
+﻿@model IEnumerable<OuviCidadeV3.Models.Cidadao>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center " style="margin-bottom: 200px;">
+    <h1 class="display-2">OuviCidade</h1>
+    <h1 class="display-6">João Monlevade</h1>
+    
+</div>
+
+<div class="text-center" style="margin-bottom: 200px;">
+    <ul>
+        <li class="nav-item" style="margin-bottom: 20px; outline: 2px solid black">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Cidadao" asp-action="Create">Criar Conta</a>
+        </li>
+
+        <li class="nav-item" style="margin-bottom: 20px; outline: 2px solid black">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Cidadao" asp-action="Login">Área do Cidadão</a>
+        </li>
+
+        <li class="nav-item" style="margin-bottom: 20px; outline: 2px solid black">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Noticia" asp-action="Index">Notícias</a>
+        </li>
+
+        <li class="nav-item" style="margin-bottom: 20px; outline: 2px solid black">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Manifestacao" asp-action="Index">Manifestacões</a>
+        </li>
+        
+        <li class="nav-item" style="margin-bottom: 20px; outline: 2px solid black">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Secretaria" asp-action="Index">Secretarias</a>
+        </li>
+
+        @if(Program.Admin != null)
+        {
+            <li class="nav-item" style="margin-bottom: 20px; outline: 2px solid black">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Manifestacao" asp-action="Responder">Responder Manifestações</a>
+            </li>
+
+            <li class="nav-item" style="margin-bottom: 20px; outline: 2px solid black">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Administradores</a>
+            </li>
+        }
+    </ul>
+</div>
+
+
+<div class="text-center">
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+

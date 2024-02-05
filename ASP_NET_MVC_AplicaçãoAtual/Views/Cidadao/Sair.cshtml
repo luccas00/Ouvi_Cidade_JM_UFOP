@@ -1,0 +1,23 @@
+﻿@model OuviCidadeV3.Models.Cidadao
+
+@{
+    ViewData["Title"] = "Sair";
+}
+
+@if(Program.Cidadao == null) {
+
+    <h1 style="color: green">Sessão Encerrada</h1>
+    <div>
+        Acesso Encerrado.
+    </div>;
+} else
+{
+    <h1 style="color: red">Falha</h1>
+    <div>
+        Erro.
+    </div>
+}
+
+
+
+

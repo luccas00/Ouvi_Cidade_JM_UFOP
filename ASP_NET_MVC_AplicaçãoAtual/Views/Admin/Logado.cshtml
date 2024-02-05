@@ -1,0 +1,75 @@
+﻿@model OuviCidadeV3.Models.Admin
+
+@{
+    ViewData["Title"] = "Logado";
+}
+
+@if(Program.Admin != null) {
+
+    <h1 style="color: green">Login Realizado com Sucesso</h1>
+    <div>
+        Acesso Concluido
+    </div>;
+    <div>
+        <h4>Admin</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Telefone)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Telefone)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Login)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Login)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Endereco)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Endereco)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DataNascimento)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Ativo)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Ativo)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+} else
+{
+    <h1 style="color: red">Acesso Negado!</h1>
+    <div>
+        Acesso Negado!
+    </div>
+}
+
+
+
+
