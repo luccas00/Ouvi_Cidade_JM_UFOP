@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>https</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>D:\OuviCidadeV3\ASP_NET_MVC\Properties\PublishProfiles\OuviCidadeV3 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>D:\Ouvi_Cidade_JM_UFOPV3\ASP_NET_MVC_AplicaçãoAtual\Properties\PublishProfiles\OuviCidadeV4 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
