@@ -31,21 +31,5 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-controller="Home" asp-action="Index">Pagina Inicial</a>
 </div>
-
-
-<!-- O restante do seu HTML aqui -->
-@if (!string.IsNullOrEmpty(ViewData["Mensagem"] as string))
-{
-    <script>
-        alert('@Html.Raw("Login Realizado@");
-    </script>
-}
-
-@if (!string.IsNullOrEmpty(ViewData["ErrorMessage"] as string))
-{
-    <script>
-        alert('@Html.Raw(ViewData["ErrorMessage"])');
-    </script>
-}

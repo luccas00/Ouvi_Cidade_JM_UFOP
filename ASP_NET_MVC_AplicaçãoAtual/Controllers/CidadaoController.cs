@@ -37,24 +37,53 @@ namespace OuviCidadeV3.Controllers
             return View();
         }
 
-        public IActionResult Index(string search)
+        public async Task<IActionResult> Index(string search)
         {
             if (Program.Admin == null)
             {
                 return RedirectToAction("Negado");
             }
 
-            var query = _context.Cidadao.FromSqlRaw("SELECT * FROM Cidadao").ToList();
+            string sql = "SELECT * FROM Cidadao";
 
             if (!string.IsNullOrEmpty(search))
             {
-                string sql = $"SELECT * FROM Cidadao WHERE Nome = {search}";
-                query = _context.Cidadao.FromSqlRaw(sql).ToList();
+                // Verifica se o parâmetro de pesquisa parece ser um CPF
+                bool isCpf = search.All(char.IsDigit);
 
+                if (isCpf)
+                {
+                    sql += $" WHERE CPF = '{search}'";
+                }
+                else
+                {
+                    sql += $" WHERE Nome LIKE '%{search}%'";
+                }
             }
 
-            return View(query);
+            var cidadaos = await _context.Cidadao.FromSqlRaw(sql).ToListAsync();
+
+            return View(cidadaos);
         }
+
+        //public IActionResult Index(string search)
+        //{
+        //    if (Program.Admin == null)
+        //    {
+        //        return RedirectToAction("Negado");
+        //    }
+
+        //    var query = _context.Cidadao.FromSqlRaw("SELECT * FROM Cidadao").ToList();
+
+        //    if (!string.IsNullOrEmpty(search))
+        //    {
+        //        string sql = $"SELECT * FROM Cidadao WHERE Nome = {search}";
+        //        query = _context.Cidadao.FromSqlRaw(sql).ToList();
+
+        //    }
+
+        //    return View(query);
+        //}
 
         // GET: Cidadao/Details/5
         public async Task<IActionResult> Details(string id)
@@ -69,7 +98,7 @@ namespace OuviCidadeV3.Controllers
                 return NotFound();
             }
 
-            string sql = $"SELECT * FROM Cidado WHERE CPF = '{id}'";
+            string sql = $"SELECT * FROM Cidadao WHERE CPF = '{id}'";
 
             var cidadao = await _context.Cidadao.FromSqlRaw(sql).ToListAsync();
 
@@ -151,7 +180,7 @@ namespace OuviCidadeV3.Controllers
                 return NotFound();
             }
 
-            string sql = $"SELECT * FROM Cidadao WHERE CPF = {id}";
+            string sql = $"SELECT * FROM Cidadao WHERE CPF = '{id}'";
 
             var cidadao = await _context.Cidadao.FromSqlRaw(sql).ToListAsync();
 
@@ -280,18 +309,28 @@ namespace OuviCidadeV3.Controllers
 
             var usuario = await _context.Cidadao.FromSqlRaw(sql).ToListAsync();
 
-            string secret = usuario.FirstOrDefault().SecretKey;
-            string senhaCriptografada = usuario.FirstOrDefault().Senha;
-
-            if (usuario.Count > 0 && usuario != null && VerifyPassword(Senha, senhaCriptografada, secret))
+            if (usuario != null && usuario.Count > 0)
             {
-                Program.Cidadao = usuario.FirstOrDefault();
-                return RedirectToAction("Logado", new { id = usuario.FirstOrDefault().CPF });
+                string secret = usuario.FirstOrDefault().SecretKey;
+
+                string senhaCriptografada = usuario.FirstOrDefault().Senha;
+
+                if (usuario.Count > 0 && usuario != null && VerifyPassword(Senha, senhaCriptografada, secret))
+                {
+                    Program.Cidadao = usuario.FirstOrDefault();
+                    return RedirectToAction("Logado", new { id = usuario.FirstOrDefault().CPF });
+                }
+                else
+                {
+                    return RedirectToAction("Negado");
+                }
+
             }
             else
             {
                 return RedirectToAction("Negado");
             }
+
         }
 
         public static string EncryptPassword(string password, string key)

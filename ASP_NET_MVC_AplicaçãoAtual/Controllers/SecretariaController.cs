@@ -15,7 +15,6 @@ namespace OuviCidadeV3.Controllers
 
         private readonly WebAppContext _context;
 
-
         public SecretariaController(WebAppContext context)
         {
             _context = context;
@@ -114,7 +113,7 @@ namespace OuviCidadeV3.Controllers
                 return NotFound();
             }
 
-            return View(secretaria);
+            return View(secretaria.FirstOrDefault());
 
         }
 

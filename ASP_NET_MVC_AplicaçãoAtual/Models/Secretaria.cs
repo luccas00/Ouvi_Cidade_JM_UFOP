@@ -7,5 +7,10 @@ namespace OuviCidadeV3.Models
         [Key]
         public string Id { get; set; }
         public string Nome { get; set; }
+
+        public Secretaria()
+        {
+            Id = "0";
+        }
     }
 }

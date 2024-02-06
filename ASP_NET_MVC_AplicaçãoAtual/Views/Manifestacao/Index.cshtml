@@ -4,14 +4,64 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Todas as Manifestações</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Nova Manifestação</a>
 </p>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" style="margin-bottom: 20px;">
+            <div class="form-group">
+                <label for="search">Procurar por Protocolo:</label>
+                <input type="text" name="search" id="search" class="form-control" />
+            </div>
+            <button type="submit" name="searchType" value="protocolo" class="btn btn-primary">Filtrar por Protocolo</button>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" style="margin-bottom: 20px;">
+            <div class="form-group">
+                <label for="secretaria">Filtrar por Secretaria:</label>
+                <select name="secretaria" id="secretaria" class="form-control">
+                    <option value="">Todas as Secretarias</option>
+                    @foreach (var secretaria in ViewBag.Secretarias)
+                    {
+                        <option value="@secretaria.Id">@secretaria.Nome</option>
+                    }
+                </select>
+            </div>
+            <button type="submit" name="searchType" value="secretaria" class="btn btn-primary">Filtrar por Secretaria</button>
+        </form>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <!-- Formulário para buscar todos os registros -->
+    <form asp-action="Index" method="get" style="margin-bottom: 20px;">
+        <button type="submit" class="btn btn-primary">Todos os Registros</button>
+    </form>
+</div>
+
+@*
+<div class="col-md-6">
+    <form asp-action="Index" method="get" style="margin-bottom: 20px;">
+        <div class="form-group">
+            <label for="search">Procurar por Protocolo:</label>
+            <input type="text" name="search" id="search" class="form-control" />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+</div>
+*@
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Protocolo)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Titulo)
             </th>
@@ -21,11 +71,14 @@
             <th>
                 @Html.DisplayNameFor(model => model.DataCriacao)
             </th>
-            <th>
+            <th> 
                 @Html.DisplayNameFor(model => model.DataResposta)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Resposta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Secretaria)
             </th>
             <th></th>
         </tr>
@@ -33,6 +86,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <th>
+                @Html.DisplayFor(modelItem => item.Protocolo)
+            </th>
             <td>
                 @Html.DisplayFor(modelItem => item.Titulo)
             </td>
@@ -58,6 +114,10 @@
                         <a asp-action="Delete" asp-route-id="@item.Protocolo">Delete</a>
                     </td>
                 }
+               
+            <td>
+                @Html.DisplayFor(modelItem => item.Secretaria.Nome)
+            </td>
                 
         </tr>
 }

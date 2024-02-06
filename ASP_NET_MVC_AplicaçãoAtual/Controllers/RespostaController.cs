@@ -27,17 +27,17 @@ namespace OuviCidadeV3.Controllers
         // GET: Resposta
         public async Task<IActionResult> Index()
         {
+            if (Program.Admin == null)
+            {
+                return RedirectToAction("Negado");
+            }
+
             return View(await _context.Resposta.FromSqlRaw("SELECT * FROM Resposta ORDER BY DataCriacao DESC;").ToListAsync());
         }
 
         // GET: Resposta/Details/5
         public async Task<IActionResult> Details(string id)
         {
-            //if (Program.Admin == null)
-            //{
-            //    return RedirectToAction("Negado");
-            //}
-
             if (id == null || _context.Resposta == null)
             {
                 return NotFound();
@@ -193,15 +193,16 @@ namespace OuviCidadeV3.Controllers
                 return NotFound();
             }
 
-            var resposta = await _context.Resposta
-                .Include(r => r.Manifestacao)
-                .FirstOrDefaultAsync(m => m.Protocolo == id);
+            string sql = $"SELECT * FROM Resposta WHERE Protocolo = '{id}'";
+
+            var resposta = await _context.Resposta.FromSqlRaw(sql).ToArrayAsync();
+
             if (resposta == null)
             {
                 return NotFound();
             }
 
-            return View(resposta);
+            return View(resposta.FirstOrDefault());
         }
 
         // POST: Resposta/Delete/5
@@ -218,19 +219,26 @@ namespace OuviCidadeV3.Controllers
             {
                 return Problem("Entity set 'WebAppContext.Resposta'  is null.");
             }
-            var resposta = await _context.Resposta.FindAsync(id);
+
+            string sql = $"SELECT * FROM Resposta WHERE Protocolo = '{id}'";
+
+            var resposta = await _context.Resposta.FromSqlRaw(sql).ToArrayAsync();
+
             if (resposta != null)
             {
-                _context.Resposta.Remove(resposta);
+                string sql2 = $"UPDATE Resposta SET Texto '' WHERE Protocolo = '{id}'";
+                _context.Database.ExecuteSqlRaw(sql2);
             }
-            
-            await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
+
         }
 
         private bool RespostaExists(string id)
         {
-          return (_context.Resposta?.Any(e => e.Protocolo == id)).GetValueOrDefault();
+            string sql = $"SELECT * FROM Resposta WHERE Protocolo = '{id}'";
+            var aux = _context.Resposta.FromSqlRaw(sql).ToList();
+            return aux.Count > 0 ? true : false;
         }
     }
 }

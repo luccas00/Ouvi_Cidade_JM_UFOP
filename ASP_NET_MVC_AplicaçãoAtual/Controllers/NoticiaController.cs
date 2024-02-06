@@ -18,12 +18,16 @@ namespace OuviCidadeV3.Controllers
         {
             _context = context;
         }
+        public IActionResult Negado()
+        {
+            return View();
+        }
 
         // GET: Noticia
         public async Task<IActionResult> Index()
         {
               return _context.Noticia != null ? 
-                          View(await _context.Noticia.ToListAsync()) :
+                          View(await _context.Noticia.FromSqlRaw("SELECT * FROM Noticia ORDER BY DataCriacao DESC").ToListAsync()) :
                           Problem("Entity set 'WebAppContext.Noticia'  is null.");
         }
 
@@ -40,14 +44,15 @@ namespace OuviCidadeV3.Controllers
                 return NotFound();
             }
 
-            var noticia = await _context.Noticia
-                .FirstOrDefaultAsync(m => m.ID == id);
+            string sql = $"SELECT * FROM Noticia WHERE ID = '{id}'";
+
+            var noticia = await _context.Noticia.FromSqlRaw(sql).ToListAsync();
             if (noticia == null)
             {
                 return NotFound();
             }
 
-            return View(noticia);
+            return View(noticia.FirstOrDefault());
         }
 
         // GET: Noticia/Create
@@ -66,18 +71,23 @@ namespace OuviCidadeV3.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Titulo,Texto,DataCriacao,ID")] Noticia noticia)
+        public async Task<IActionResult> Create([Bind("Titulo,Texto")] Noticia noticia)
         {
             if (Program.Admin == null)
             {
                 return RedirectToAction("Negado");
             }
-            if (ModelState.IsValid)
+
+            if (noticia != null)
             {
-                _context.Add(noticia);
-                await _context.SaveChangesAsync();
+                string secretaria = Program.Admin.Secretaria == null ? "NULL" : "'" + Program.Admin.Secretaria.Id + "'";
+                string sql = $"INSERT INTO Noticia ([ID], [Titulo], [Texto], [ProprietarioID], [SecretariaId], [DataCriacao]) VALUES ('{ManifestacaoController.GenerateRandomString(4)}', '{noticia.Titulo}', '{noticia.Texto}', '{Program.Admin.ID}', {secretaria}, '{DateTime.Now}')";
+
+                await _context.Database.ExecuteSqlRawAsync(sql);
+
                 return RedirectToAction(nameof(Index));
             }
+
             return View(noticia);
         }
 
@@ -94,12 +104,16 @@ namespace OuviCidadeV3.Controllers
                 return NotFound();
             }
 
-            var noticia = await _context.Noticia.FindAsync(id);
+            string sql = $"SELECT * FROM Noticia WHERE ID = {id}";
+
+
+            var noticia = await _context.Noticia.FromSqlRaw(sql).ToListAsync();
+
             if (noticia == null)
             {
                 return NotFound();
             }
-            return View(noticia);
+            return View(noticia.FirstOrDefault());
         }
 
         // POST: Noticia/Edit/5
@@ -107,7 +121,7 @@ namespace OuviCidadeV3.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Titulo,Texto,DataCriacao,ID")] Noticia noticia)
+        public async Task<IActionResult> Edit(string id, [Bind("Titulo,Texto")] Noticia noticia)
         {
             if (Program.Admin == null)
             {
@@ -119,12 +133,12 @@ namespace OuviCidadeV3.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (noticia != null)
             {
                 try
                 {
-                    _context.Update(noticia);
-                    await _context.SaveChangesAsync();
+                    string sql = $"UPDATE Noticia SET Titulo = '{noticia.Titulo}', Texto = '{noticia.Texto}' WHERE ID = '{id}';";
+                    await _context.Database.ExecuteSqlRawAsync(sql);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -156,14 +170,16 @@ namespace OuviCidadeV3.Controllers
                 return NotFound();
             }
 
-            var noticia = await _context.Noticia
-                .FirstOrDefaultAsync(m => m.ID == id);
+            string sql = $"SELECT * FROM Noticia WHERE ID = '{id}'";
+
+            var noticia = await _context.Noticia.FromSqlRaw(sql).ToArrayAsync();
+
             if (noticia == null)
             {
                 return NotFound();
             }
 
-            return View(noticia);
+            return View(noticia.FirstOrDefault());
         }
 
         // POST: Noticia/Delete/5
@@ -180,19 +196,25 @@ namespace OuviCidadeV3.Controllers
             {
                 return Problem("Entity set 'WebAppContext.Noticia'  is null.");
             }
-            var noticia = await _context.Noticia.FindAsync(id);
+
+            string sql = $"SELECT * FROM Noticia WHERE ID = '{id}'";
+
+            var noticia = await _context.Noticia.FromSqlRaw(sql).ToArrayAsync();
+
             if (noticia != null)
             {
-                _context.Noticia.Remove(noticia);
+                string sql2 = $"DELETE FROM Noticia WHERE ID = '{id}'";
+                _context.Database.ExecuteSqlRaw(sql2);
             }
             
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool NoticiaExists(string id)
         {
-          return (_context.Noticia?.Any(e => e.ID == id)).GetValueOrDefault();
+            string sql = $"SELECT * FROM Noticia WHERE ID = '{id}'";
+            var aux = _context.Noticia.FromSqlRaw(sql).ToList();
+            return aux.Count > 0 ? true : false;
         }
     }
 }

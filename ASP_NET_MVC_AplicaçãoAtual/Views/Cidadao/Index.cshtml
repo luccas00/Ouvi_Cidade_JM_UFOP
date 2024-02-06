@@ -12,23 +12,32 @@
 </p>
 
 
-<div>
-    <form asp-action="Index" method="get" style="margin-bottom: 20px;">
-        <div class="form-group">
-            <label for="search">Procurar por Nome:</label>
-            <input type="text" name="search" id="search" class="form-control" />
-            <button type="submit" class="btn btn-primary">Search</button>
-        </div>
-    </form>
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" style="margin-bottom: 20px;">
+            <div class="form-group">
+                <label for="search">Procurar por Nome:</label>
+                <input type="text" name="search" id="search" class="form-control" />
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" style="margin-bottom: 20px;">
+            <div class="form-group">
+                <label for="search">Procurar por CPF:</label>
+                <input type="text" name="search" id="search" class="form-control" />
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </form>
+    </div>
 </div>
 
-<div>
+<div class="col-md-6">
+    <!-- Formulário para buscar todos os registros -->
     <form asp-action="Index" method="get" style="margin-bottom: 20px;">
-        <div class="form-group">
-            <label for="search">Procurar por CPF:</label>
-            <input type="text" name="search" id="search" class="form-control" />
-            <button type="submit" class="btn btn-primary">Search</button>
-        </div>
+        <button type="submit" class="btn btn-primary">Todos os Registros</button>
     </form>
 </div>
 
@@ -46,22 +55,13 @@
                 @Html.DisplayNameFor(model => model.Email)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Login)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Senha)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SecretKey)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Endereco)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.DataNascimento)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Ativo)
+                @Html.DisplayNameFor(model => model.CPF)
             </th>
             <th></th>
         </tr>
@@ -79,22 +79,13 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Login)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Senha)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SecretKey)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Endereco)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DataNascimento)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Ativo)
+                @Html.DisplayFor(modelItem => item.CPF)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.CPF">Edit</a> |

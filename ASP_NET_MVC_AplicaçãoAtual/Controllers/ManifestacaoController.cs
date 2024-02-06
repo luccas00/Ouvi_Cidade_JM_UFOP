@@ -19,15 +19,61 @@ namespace OuviCidadeV3.Controllers
             _context = context;
         }
 
-        // GET: Manifestacao
-        public async Task<IActionResult> Index()
-        {
-            string sql = $"SELECT * FROM Manifestacao ORDER BY DataCriacao DESC";
+        //public async Task<IActionResult> Index(string search)
+        //{
 
-              return _context.Manifestacao != null ? 
-                          View(await _context.Manifestacao.FromSqlRaw(sql).ToListAsync()) :
-                          Problem("Entity set 'WebAppContext.Manifestacao'  is null.");
+        //    string sql = "SELECT * FROM Manifestacao";
+
+        //    if (!string.IsNullOrEmpty(search))
+        //    {
+        //        sql += $" WHERE Protocolo = '{search}'";
+        //    }
+
+        //    sql += " ORDER BY DataCriacao DESC";
+
+        //    var manifestacoes = await _context.Manifestacao.FromSqlRaw(sql).ToListAsync();
+
+        //    return View(manifestacoes);
+        //}
+
+        public async Task<IActionResult> Index(string search, int? secretaria)
+        {
+
+            string sql = "SELECT * FROM Manifestacao";
+
+            if (!string.IsNullOrEmpty(search))
+            {
+                sql += $" WHERE Protocolo = '{search}'";
+            }
+
+            if (string.IsNullOrEmpty(search) & secretaria.HasValue)
+            {
+                sql += $" WHERE SecretariaId = '{secretaria}'";
+
+            } else if (!string.IsNullOrEmpty(search) & secretaria.HasValue)
+            {
+                sql += $" AND SecretariaId = '{secretaria}'";
+            }
+
+            sql += " ORDER BY DataCriacao DESC";
+
+            var manifestacoes = await _context.Manifestacao.FromSqlRaw(sql).ToListAsync();
+
+            ViewBag.Secretarias = await _context.Secretaria.FromSqlRaw("Select * From Secretaria").ToListAsync();
+
+            return View(manifestacoes);
         }
+
+
+        //// GET: Manifestacao
+        //public async Task<IActionResult> Index()
+        //{
+        //    string sql = $"SELECT * FROM Manifestacao ORDER BY DataCriacao DESC";
+
+        //      return _context.Manifestacao != null ? 
+        //                  View(await _context.Manifestacao.FromSqlRaw(sql).ToListAsync()) :
+        //                  Problem("Entity set 'WebAppContext.Manifestacao'  is null.");
+        //}
 
         public async Task<IActionResult> Responder()
         {
@@ -77,13 +123,13 @@ namespace OuviCidadeV3.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Titulo,Texto")] Manifestacao manifestacao)
+        public async Task<IActionResult> Create([Bind("Titulo,Texto,Secretaria")] Manifestacao manifestacao)
         {
             if (manifestacao != null)
             {
                 manifestacao.Protocolo = GenerateRandomString(6);
                 manifestacao.DataCriacao = DateTime.Now;
-                manifestacao.Secretaria = null;
+                manifestacao.Secretaria = manifestacao.Secretaria == null ? new Secretaria() : manifestacao.Secretaria;
 
                 if (Program.Cidadao != null)
                 {
@@ -98,7 +144,7 @@ namespace OuviCidadeV3.Controllers
 
                 string sql1 = $"INSERT INTO Resposta ([DataCriacao], [ID], [Protocolo], [Texto]) VALUES ('1990-01-01', '000', '{manifestacao.Protocolo}', '')";
 
-                string sql2 = $"INSERT INTO Manifestacao([ProprietarioCPF], [Titulo], [Texto], [Protocolo], [SecretariaId], [DataCriacao]) VALUES ({proprietario}, '{manifestacao.Titulo}', '{manifestacao.Texto}', '{manifestacao.Protocolo}', NULL, '{manifestacao.DataCriacao}')";
+                string sql2 = $"INSERT INTO Manifestacao([ProprietarioCPF], [Titulo], [Texto], [Protocolo], [SecretariaId], [DataCriacao]) VALUES ({proprietario}, '{manifestacao.Titulo}', '{manifestacao.Texto}', '{manifestacao.Protocolo}', '{manifestacao.Secretaria.Id}', '{manifestacao.DataCriacao}')";
 
                 await _context.Database.ExecuteSqlRawAsync(sql1);
 
