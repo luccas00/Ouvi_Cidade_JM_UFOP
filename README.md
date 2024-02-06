@@ -15,4 +15,9 @@ Luccas Vinicius P. A. Santos Carneiro
 
 Carlos Vitor Ferreira De Moura
 
-Repositorio de Desenvolvimento: https://github.com/luccas00/Ouvi_Cidade_JM_UFOP
+
+________________________________________________
+
+Siga o link abaixo para acessar o repositório de desenvolvimento. Nele, contém o código-fonte dos protótipos e versões anteriores.
+
+ttps://github.com/luccas00/Ouvi_Cidade_JM_UFOP
