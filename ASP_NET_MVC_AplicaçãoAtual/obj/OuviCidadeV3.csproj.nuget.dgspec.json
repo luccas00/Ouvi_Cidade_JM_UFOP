@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OuviCidadeV3\\ASP_NET_MVC\\OuviCidadeV3.csproj": {}
+    "D:\\Ouvi_Cidade_JM_UFOPV3\\ASP_NET_MVC_AplicaçãoAtual\\OuviCidadeV3.csproj": {}
   },
   "projects": {
-    "D:\\OuviCidadeV3\\ASP_NET_MVC\\OuviCidadeV3.csproj": {
+    "D:\\Ouvi_Cidade_JM_UFOPV3\\ASP_NET_MVC_AplicaçãoAtual\\OuviCidadeV3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OuviCidadeV3\\ASP_NET_MVC\\OuviCidadeV3.csproj",
+        "projectUniqueName": "D:\\Ouvi_Cidade_JM_UFOPV3\\ASP_NET_MVC_AplicaçãoAtual\\OuviCidadeV3.csproj",
         "projectName": "OuviCidadeV3",
-        "projectPath": "D:\\OuviCidadeV3\\ASP_NET_MVC\\OuviCidadeV3.csproj",
+        "projectPath": "D:\\Ouvi_Cidade_JM_UFOPV3\\ASP_NET_MVC_AplicaçãoAtual\\OuviCidadeV3.csproj",
         "packagesPath": "C:\\Users\\LuccasCarneiro\\.nuget\\packages\\",
-        "outputPath": "D:\\OuviCidadeV3\\ASP_NET_MVC\\obj\\",
+        "outputPath": "D:\\Ouvi_Cidade_JM_UFOPV3\\ASP_NET_MVC_AplicaçãoAtual\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
