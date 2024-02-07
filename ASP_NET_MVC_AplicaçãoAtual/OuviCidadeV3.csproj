@@ -1,0 +1,101 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\FrontEnd\assets\digital.png" />
+    <None Include="wwwroot\FrontEnd\assets\form.png" />
+    <None Include="wwwroot\FrontEnd\assets\login.png" />
+    <None Include="wwwroot\FrontEnd\assets\logo-v1.png" />
+    <None Include="wwwroot\FrontEnd\assets\logo.png" />
+    <None Include="wwwroot\FrontEnd\assets\user.png" />
+    <None Include="wwwroot\FrontEnd\cadastro.html" />
+    <None Include="wwwroot\FrontEnd\css\animated.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-grid.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-grid.rtl.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-grid.rtl.min.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-reboot.rtl.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-reboot.rtl.min.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-utilities.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-utilities.min.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-utilities.rtl.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-utilities.rtl.min.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap.min.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap.rtl.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap.rtl.min.css" />
+    <None Include="wwwroot\FrontEnd\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\FrontEnd\css\fontawesome.css" />
+    <None Include="wwwroot\FrontEnd\css\icofont.css" />
+    <None Include="wwwroot\FrontEnd\css\owl.css" />
+    <None Include="wwwroot\FrontEnd\fonts\Flaticon.woff" />
+    <None Include="wwwroot\FrontEnd\fonts\flexslider-icon.eot" />
+    <None Include="wwwroot\FrontEnd\fonts\flexslider-icon.svg" />
+    <None Include="wwwroot\FrontEnd\fonts\flexslider-icon.ttf" />
+    <None Include="wwwroot\FrontEnd\fonts\flexslider-icon.woff" />
+    <None Include="wwwroot\FrontEnd\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\FrontEnd\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\FrontEnd\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\FrontEnd\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\FrontEnd\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\FrontEnd\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\FrontEnd\fonts\slick.eot" />
+    <None Include="wwwroot\FrontEnd\fonts\slick.svg" />
+    <None Include="wwwroot\FrontEnd\fonts\slick.ttf" />
+    <None Include="wwwroot\FrontEnd\fonts\slick.woff" />
+    <None Include="wwwroot\FrontEnd\index.html" />
+    <None Include="wwwroot\FrontEnd\js\animation.js" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.esm.js" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.js" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.js.map" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.min.js" />
+    <None Include="wwwroot\FrontEnd\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\FrontEnd\js\custom.js" />
+    <None Include="wwwroot\FrontEnd\js\imagesloaded.js" />
+    <None Include="wwwroot\FrontEnd\js\isotope.js" />
+    <None Include="wwwroot\FrontEnd\js\owl-carousel.js" />
+    <None Include="wwwroot\FrontEnd\js\tabs.js" />
+    <None Include="wwwroot\FrontEnd\login.html" />
+    <None Include="wwwroot\FrontEnd\manifestacao.html" />
+    <None Include="wwwroot\FrontEnd\style.css" />
+    <None Include="wwwroot\FrontEnd\verManifestacoes.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.15">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.15" />
+  </ItemGroup>
+
+</Project>

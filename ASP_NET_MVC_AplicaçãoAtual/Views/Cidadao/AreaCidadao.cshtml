@@ -1,0 +1,89 @@
+﻿@model OuviCidadeV3.Models.Cidadao
+
+@{
+    ViewData["Title"] = "AreaCidadao";
+}
+
+<div class="row text-center">
+    <h1>Area do Cidadão</h1>
+</div>
+
+<div class="row text-center">
+
+    <div class="col-md-4 mx-auto">
+        <div class="col text-center">
+            <h4>Cidadão</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.CPF)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.CPF)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Nome)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Nome)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Telefone)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Telefone)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Login)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Login)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Endereco)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Endereco)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.DataNascimento)
+                </dt>
+                <dd class="col-sm-10" type="date" asp-format="{0:yyyy-MM-dd}">
+                    @Html.DisplayFor(model => model.DataNascimento)
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="col-md-4 mx-auto">
+        <div class="col text-center" style="margin-top: 50px">
+            <ul>
+                <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Cidadao" asp-action="Edit" asp-route-id="@Program.Cidadao.CPF">Editar Conta</a>
+                </li>
+
+                <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Noticia" asp-action="Index">Notícias</a>
+                </li>
+
+                <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Cidadao" asp-action="MinhaManifestacao">Minhas Manifestações</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div style="margin-left: 150px">
+    <a asp-action="Edit" asp-route-id="@Model?.CPF">Editar</a>
+</div>

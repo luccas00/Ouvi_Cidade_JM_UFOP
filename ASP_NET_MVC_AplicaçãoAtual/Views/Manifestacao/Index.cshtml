@@ -1,0 +1,138 @@
+﻿@model IEnumerable<OuviCidadeV3.Models.Manifestacao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Todas as Manifestações</h1>
+
+<p>
+    <a asp-action="Create" style="color: black;">Nova Manifestação</a>
+</p>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" style="margin-bottom: 20px;">
+            <div class="form-group mb-3">
+                <label for="search">Procurar por Protocolo:</label>
+                <input type="text" name="search" id="search" class="form-control" />
+            </div>
+            <button type="submit" name="searchType" value="protocolo" class="btn btn-primary">Filtrar por Protocolo</button>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" style="margin-bottom: 20px;">
+            <div class="form-group mb-3">
+                <label for="secretaria">Filtrar por Secretaria:</label>
+                <select name="secretaria" id="secretaria" class="form-control">
+                    <option value="">Todas as Secretarias</option>
+                    @foreach (var secretaria in ViewBag.Secretarias)
+                    {
+                        <option value="@secretaria.Id">@secretaria.Nome</option>
+                    }
+                </select>
+            </div>
+            <button type="submit" name="searchType" value="secretaria" class="btn btn-primary">Filtrar por Secretaria</button>
+        </form>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <!-- Formulário para buscar todos os registros -->
+    <form asp-action="Index" method="get" style="margin-bottom: 20px;">
+        <button type="submit" class="btn btn-primary">Todos os Registros</button>
+    </form>
+</div>
+
+
+<body style="background-color: #7AB6FF;">
+
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="col text-center" style="margin-top: 50px">
+                <ul>
+                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
+                        <h6>Protocolo @item.Protocolo </h6>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col text-center mx-auto">
+                <ul>
+                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
+                        <h6>Titulo</h6> @item.Titulo
+                    </li>
+
+                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
+                        <h6>Data de Publicação @item.DataCriacao.ToShortDateString()</h6>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="col text-center mx-auto">
+                <ul>
+                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px">
+                        <h6>Texto</h6> @item.Texto
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="row" style=" margin-top: 15px;">
+
+            <div class="col text-center">
+
+                <ul>
+                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
+                        @{
+                            string data2 = item.DataResposta == null ? "" : item.DataResposta.GetValueOrDefault().ToShortDateString();
+                        }
+                        <h6>Data da Resposta: @data2</h6>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="col text-center">
+
+                <div class="text-center">
+                    <ul>
+                        <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px">
+                            <a asp-action="Details" asp-controller="Resposta" asp-route-id="@item.Protocolo">Resposta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        @if (Program.Admin != null)
+        {
+            <div class="row">
+                <div class="col text-center" style="margin-top: 50px">
+                    <ul>
+                        <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px">
+                            <a asp-action="Edit" asp-route-id="@item.Protocolo">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.Protocolo">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.Protocolo"> Delete</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        }
+
+        <hr style="height: 10px; color: white">
+
+    }
+</body>
+

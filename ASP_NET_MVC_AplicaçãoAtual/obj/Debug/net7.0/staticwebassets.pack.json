@@ -1,0 +1,589 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OuviCidadeV3.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OuviCidadeV3.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\assets\\digital.png",
+      "PackagePath": "staticwebassets\\FrontEnd\\assets\\digital.png"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\assets\\form.png",
+      "PackagePath": "staticwebassets\\FrontEnd\\assets\\form.png"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\assets\\login.png",
+      "PackagePath": "staticwebassets\\FrontEnd\\assets\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\assets\\logo-v1.png",
+      "PackagePath": "staticwebassets\\FrontEnd\\assets\\logo-v1.png"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\assets\\logo.png",
+      "PackagePath": "staticwebassets\\FrontEnd\\assets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\assets\\user.png",
+      "PackagePath": "staticwebassets\\FrontEnd\\assets\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\cadastro.html",
+      "PackagePath": "staticwebassets\\FrontEnd\\cadastro.html"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\animated.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\animated.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\icofont.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\css\\owl.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\FrontEnd\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\index.html",
+      "PackagePath": "staticwebassets\\FrontEnd\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\animation.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\animation.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\custom.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\imagesloaded.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\imagesloaded.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\FrontEnd\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\login.html",
+      "PackagePath": "staticwebassets\\FrontEnd\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\manifestacao.html",
+      "PackagePath": "staticwebassets\\FrontEnd\\manifestacao.html"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\style.css",
+      "PackagePath": "staticwebassets\\FrontEnd\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\FrontEnd\\verManifestacoes.html",
+      "PackagePath": "staticwebassets\\FrontEnd\\verManifestacoes.html"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fabio\\OneDrive\\Imagens\\Capturas de tela\\Documentos\\UFOP\\4º Período\\Engenharia de Software\\Ouvi_Cidade_JM_UFOPV3-main\\ASP_NET_MVC_AplicaçãoAtual\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.OuviCidadeV3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.OuviCidadeV3.props",
+      "PackagePath": "build\\OuviCidadeV3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.OuviCidadeV3.props",
+      "PackagePath": "buildMultiTargeting\\OuviCidadeV3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.OuviCidadeV3.props",
+      "PackagePath": "buildTransitive\\OuviCidadeV3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
