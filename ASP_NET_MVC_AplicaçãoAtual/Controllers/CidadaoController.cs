@@ -32,6 +32,35 @@ namespace OuviCidadeV3.Controllers
 
         }
 
+        public async Task<IActionResult> MinhaManifestacao(string search, int? secretaria)
+        {
+            if (Program.Cidadao == null)
+            {
+                return RedirectToAction("Login");
+            }
+
+            string sql = $"SELECT * FROM Manifestacao WHERE ProprietarioCPF = '{Program.Cidadao.CPF}'";
+
+            if (!string.IsNullOrEmpty(search))
+            {
+                sql += $" AND Protocolo = '{search}'";
+            }
+
+            if (secretaria.HasValue)
+            {
+                sql += $" AND SecretariaId = '{secretaria}'";
+
+            }
+
+            sql += $" ORDER BY DataCriacao DESC";
+
+            var manifestacoes = await _context.Manifestacao.FromSqlRaw(sql).ToListAsync();
+
+            ViewBag.Secretarias = await _context.Secretaria.FromSqlRaw("Select * From Secretaria").ToListAsync();
+
+            return View(manifestacoes);
+        }
+
         public IActionResult Negado()
         {
             return View();
@@ -108,7 +137,7 @@ namespace OuviCidadeV3.Controllers
             {
                 return View(Program.Cidadao);
 
-            } else if (Program.Cidadao != null && id != Program.Cidadao.CPF)
+            } else if (Program.Cidadao != null && id != Program.Cidadao.CPF && Program.Admin == null)
             {
                 return RedirectToAction("Negado");
             }
