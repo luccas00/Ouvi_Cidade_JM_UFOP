@@ -9,7 +9,59 @@
     <img src="~/FrontEnd/assets/logo.png" />
 
 </div>
-c
+
+<div class="row">
+
+    <div class="col text-center">
+
+        <div class="text-center" >
+            <img src="~/FrontEnd/assets/digital.png" style="max-width: 100%; max-height: 100%;" />
+        </div>
+        
+    </div>
+
+    <div class="col text-center">
+
+        <div class="text-center">
+            <ul>
+                <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Cidadao" asp-action="Create">Criar Conta</a>
+                </li>
+
+                <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Cidadao" asp-action="AreaCidadao">Área do Cidadão</a>
+                </li>
+
+                <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Noticia" asp-action="Index">Notícias</a>
+                </li>
+
+                <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Manifestacao" asp-action="Index">Manifestações</a>
+                </li>
+
+                <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Secretaria" asp-action="Index">Secretarias</a>
+                </li>
+
+                <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="AdmLogin">Area Administrador</a>
+                </li>
+
+                @if (Program.Admin != null)
+                {
+                    <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Manifestacao" asp-action="Responder">Responder Manifestações</a>
+                    </li>
+
+                    <li class="nav-item text-white rounded-pill" style="background-color: #7AB6FF; padding: 10px 20px; margin-bottom: 20px;">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Administradores</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
 
 <div class="text-center">
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>

@@ -153,7 +153,7 @@ namespace OuviCidadeV3.Controllers
                 return NotFound();
             }
 
-            string sql = $"SELECT * FROM Admin WHERE ID = {id}";
+            string sql = $"SELECT * FROM Admin WHERE ID = '{id}'";
 
             var admin = await _context.Admin.FromSqlRaw(sql).ToListAsync();
 
@@ -186,7 +186,7 @@ namespace OuviCidadeV3.Controllers
             {
                 try
                 {
-                    string sql = $"UPDATE Admin SET Nome = '{admin.Nome}', Telefone = '{admin.Telefone}', Email = '{admin.Email}', Endereco = '{admin.Endereco}', DataNascimento = '{admin.DataNascimento}', SecretariaId = '{admin.Secretaria}', WHERE ID = '{id}';";
+                    string sql = $"UPDATE Admin SET Nome = '{admin.Nome}', Telefone = '{admin.Telefone}', Email = '{admin.Email}', Endereco = '{admin.Endereco}', DataNascimento = '{admin.DataNascimento}' WHERE ID = '{id}';";
                     await _context.Database.ExecuteSqlRawAsync(sql);
                 }
                 catch (DbUpdateConcurrencyException)

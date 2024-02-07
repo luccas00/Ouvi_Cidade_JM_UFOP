@@ -42,6 +42,16 @@
                     <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
                         <h6>Data de Publicação @item.DataCriacao.ToShortDateString()</h6>
                     </li>
+
+                    @if (Program.Admin != null)
+                    {
+                        <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px">
+                            <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.ID">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.ID"> Delete</a>
+
+                        </li>
+                    }
                 </ul>
 
             </div>
@@ -56,6 +66,7 @@
                     </ul>
                 </div>
             </div>
+
         </div>
 
 
@@ -64,9 +75,10 @@
 
     }
 
-    <div class="text-center">
+    <div class="text-center" style="margin-bottom: 50px">
         <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Página Inicial</a>
     </div>
+
 
 </body>
 </html>

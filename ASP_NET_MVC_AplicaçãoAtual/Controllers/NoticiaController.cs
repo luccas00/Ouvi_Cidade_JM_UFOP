@@ -121,7 +121,7 @@ namespace OuviCidadeV3.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Titulo,Texto")] Noticia noticia)
+        public async Task<IActionResult> Edit(string id, [Bind("ID,Titulo,Texto")] Noticia noticia)
         {
             if (Program.Admin == null)
             {

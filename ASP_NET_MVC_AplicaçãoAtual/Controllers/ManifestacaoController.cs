@@ -207,12 +207,12 @@ namespace OuviCidadeV3.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            if (manifestacao != null)
             {
                 try
                 {
-                    _context.Update(manifestacao);
-                    await _context.SaveChangesAsync();
+                    string sql = $"Update Manifestacao Set Texto = '{manifestacao.Texto}', Titulo = '{manifestacao.Titulo}' where Protocolo = '{manifestacao.Protocolo}'";
+                    await _context.Database.ExecuteSqlRawAsync(sql);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
