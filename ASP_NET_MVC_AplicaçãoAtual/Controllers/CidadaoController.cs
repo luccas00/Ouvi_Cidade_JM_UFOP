@@ -21,6 +21,17 @@ namespace OuviCidadeV3.Controllers
             _context = context;
         }
 
+        public IActionResult AreaCidadao()
+        {
+            if (Program.Cidadao == null)
+            {
+                return RedirectToAction("Login");
+            }
+
+            return View(Program.Cidadao);
+
+        }
+
         public IActionResult Negado()
         {
             return View();
@@ -88,7 +99,16 @@ namespace OuviCidadeV3.Controllers
         // GET: Cidadao/Details/5
         public async Task<IActionResult> Details(string id)
         {
-            if (Program.Admin == null)
+            if (Program.Admin == null && Program.Cidadao == null)
+            {
+                return RedirectToAction("Negado");
+            }
+
+            if(Program.Cidadao != null && id == Program.Cidadao.CPF)
+            {
+                return View(Program.Cidadao);
+
+            } else if (Program.Cidadao != null && id != Program.Cidadao.CPF)
             {
                 return RedirectToAction("Negado");
             }
@@ -170,7 +190,17 @@ namespace OuviCidadeV3.Controllers
         // GET: Cidadao/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
-            if (Program.Admin == null)
+            if (Program.Admin == null && Program.Cidadao == null)
+            {
+                return RedirectToAction("Negado");
+            }
+
+            if (Program.Cidadao != null && id == Program.Cidadao.CPF)
+            {
+                return View(Program.Cidadao);
+
+            }
+            else if (Program.Cidadao != null && id != Program.Cidadao.CPF)
             {
                 return RedirectToAction("Negado");
             }
@@ -200,7 +230,33 @@ namespace OuviCidadeV3.Controllers
         public async Task<IActionResult> Edit(string id, [Bind("CPF,Nome,Telefone,Email,Login,Senha,SecretKey,Endereco,DataNascimento,Ativo")] Cidadao cidadao)
         {
 
-            if (Program.Admin == null)
+            if (Program.Admin == null && Program.Cidadao == null)
+            {
+                return RedirectToAction("Negado");
+            }
+
+            if (Program.Cidadao != null && id == Program.Cidadao.CPF)
+            {
+                try
+                {
+                    string sql = $"UPDATE Cidadao SET Nome = '{cidadao.Nome}', Telefone = '{cidadao.Telefone}', Email = '{cidadao.Email}', Endereco = '{cidadao.Endereco}', DataNascimento = '{cidadao.DataNascimento}' WHERE CPF = '{Program.Cidadao.CPF}';";
+                    await _context.Database.ExecuteSqlRawAsync(sql);
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!CidadaoExists(cidadao.CPF))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction("AreaCidadao", new { id = Program.Cidadao.CPF });
+
+            }
+            else if (Program.Cidadao != null && id != Program.Cidadao.CPF)
             {
                 return RedirectToAction("Negado");
             }
@@ -297,7 +353,13 @@ namespace OuviCidadeV3.Controllers
         [HttpGet]
         public ActionResult Login()
         {
+            if(Program.Cidadao != null)
+            {
+                RedirectToAction("AreaCidadao");
+            }
+
             return View();
+
         }
 
         public async Task<IActionResult> Login([Bind("Login,Senha")] Cidadao cidadao)
