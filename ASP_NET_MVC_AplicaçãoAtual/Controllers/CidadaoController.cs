@@ -173,7 +173,7 @@ namespace OuviCidadeV3.Controllers
                 cidadao.SecretKey = Guid.NewGuid().ToString();
                 cidadao.Senha = EncryptPassword(cidadao.Senha, cidadao.SecretKey);
 
-                string sql = $"INSERT INTO Cidadao ([CPF], [Nome], [Email], [Telefone], [Login], [Senha], [SecretKey], [Endereco], [DataNascimento], [Ativo]) VALUES ('{cidadao.CPF}', '{cidadao.Nome}', '{cidadao.Email}', '{cidadao.Telefone}', '{cidadao.Login}', '{cidadao.Senha}', '{cidadao.SecretKey}', '{cidadao.Endereco}', '{cidadao.DataNascimento}', 1)";
+                string sql = $"INSERT INTO Cidadao ([CPF], [Nome], [Email], [Telefone], [Login], [Senha], [SecretKey], [Endereco], [DataNascimento], [Ativo]) VALUES ('{cidadao.CPF}', '{cidadao.Nome}', '{cidadao.Email}', '{cidadao.Telefone}', '{cidadao.Login}', '{cidadao.Senha}', '{cidadao.SecretKey}', '{cidadao.Endereco}', '{cidadao.DataNascimento.Year}-{cidadao.DataNascimento.Month}-{cidadao.DataNascimento.Day}', 1)";
 
                 await _context.Database.ExecuteSqlRawAsync(sql);
 
@@ -241,6 +241,9 @@ namespace OuviCidadeV3.Controllers
                 {
                     string sql = $"UPDATE Cidadao SET Nome = '{cidadao.Nome}', Telefone = '{cidadao.Telefone}', Email = '{cidadao.Email}', Endereco = '{cidadao.Endereco}', DataNascimento = '{cidadao.DataNascimento}' WHERE CPF = '{Program.Cidadao.CPF}';";
                     await _context.Database.ExecuteSqlRawAsync(sql);
+                    string sql2 = $"SELECT * FROM Cidadao WHERE CPF = '{Program.Cidadao.CPF}'";
+                    var aux = await _context.Cidadao.FromSqlRaw(sql2).ToArrayAsync();
+                    Program.Cidadao = aux.FirstOrDefault();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -270,7 +273,7 @@ namespace OuviCidadeV3.Controllers
             {
                 try
                 {
-                    string sql = $"UPDATE Cidadao SET Nome = '{cidadao.Nome}', Telefone = '{cidadao.Telefone}', Email = '{cidadao.Email}', Endereco = '{cidadao.Endereco}', DataNascimento = '{cidadao.DataNascimento}' WHERE CPF = '{id}';";
+                    string sql = $"UPDATE Cidadao SET Nome = '{cidadao.Nome}', Telefone = '{cidadao.Telefone}', Email = '{cidadao.Email}', Endereco = '{cidadao.Endereco}' WHERE CPF = '{id}';";
                     await _context.Database.ExecuteSqlRawAsync(sql);
                 }
                 catch (DbUpdateConcurrencyException)

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<OuviCidadeV3.Models.Noticia>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Todas as Noticias</h1>
+
+@if(Program.Admin != null)
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+<table class="table" style="border-collapse: separate; border-spacing: 10px;">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Texto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataCriacao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+            <tr style="border: 1px solid black; ">
+                <td style="padding: 10px 20px;">
+                    @Html.DisplayFor(modelItem => item.Titulo)
+                </td>
+                <td style="padding: 10px 20px;">
+                    @Html.DisplayFor(modelItem => item.Texto)
+                </td>
+                <td style="padding: 10px 20px;">
+                    @Html.DisplayFor(modelItem => item.DataCriacao)
+                </td>
+                @if (Program.Admin != null)
+                {
+                    <td style="padding: 10px 20px;">
+                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    </td>
+                }
+            </tr>
+            <tr style="border: 1px solid black;"></tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+<div>
+    <a asp-controller="Home" asp-action="Index">Pagina Inicial</a>
+</div>
