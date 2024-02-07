@@ -84,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRhb1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Ouvi_Cidade_JM_UFOPV3/ASP_NET_MVC_AplicaçãoAtual/Views/Cidadao/MinhaManifestacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRhb1xNaW5oYU1hbmlmZXN0YWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Ouvi_Cidade_JM_UFOPV3/ASP_NET_MVC_AplicaçãoAtual/Views/Cidadao/Negado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2lkYWRhb1xOZWdhZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -150,10 +154,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Ouvi_Cidade_JM_UFOPV3/ASP_NET_MVC_AplicaçãoAtual/Views/Noticia/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Ouvi_Cidade_JM_UFOPV3/ASP_NET_MVC_AplicaçãoAtual/Views/Noticia/Index - Cópia.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxJbmRleCAtIEPDs3BpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Ouvi_Cidade_JM_UFOPV3/ASP_NET_MVC_AplicaçãoAtual/Views/Noticia/Index.cshtml]
