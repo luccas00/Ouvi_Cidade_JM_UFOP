@@ -7,7 +7,7 @@
 <h1>Todas as Manifestações</h1>
 
 <p>
-    <a asp-action="Create" style="color: black;">Nova Manifestação</a>
+    <a asp-action="Create" asp-controller="Manifestacao" style="color: black;">Nova Manifestação</a>
 </p>
 
 <div class="row">
@@ -46,93 +46,71 @@
 </div>
 
 
-<body style="background-color: #7AB6FF;">
-
-    @foreach (var item in Model)
-    {
-        <div class="row">
-            <div class="col text-center" style="margin-top: 50px">
-                <ul>
-                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
-                        <h6>Protocolo @item.Protocolo </h6>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col text-center mx-auto">
-                <ul>
-                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
-                        <h6>Titulo</h6> @item.Titulo
-                    </li>
-
-                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
-                        <h6>Data de Publicação @item.DataCriacao.ToShortDateString()</h6>
-                    </li>
-
-                </ul>
-
-            </div>
-
-            <div class="col text-center mx-auto">
-                <ul>
-                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px">
-                        <h6>Texto</h6> @item.Texto
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="row" style=" margin-top: 15px;">
-
-            <div class="col text-center">
-
-                <ul>
-                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
-                        @{
-                            string data2 = item.DataResposta == null ? "" : item.DataResposta.GetValueOrDefault().ToShortDateString();
-                        }
-                        <h6>Data da Resposta: @data2</h6>
-                    </li>
-
-                </ul>
-
-            </div>
-
-            <div class="col text-center">
-
-                <div class="text-center">
-                    <ul>
-                        <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px">
-                            <a asp-action="Details" asp-controller="Resposta" asp-route-id="@item.Protocolo">Resposta</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-
-        @if (Program.Admin != null)
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Protocolo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Texto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataCriacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataResposta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resposta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Secretaria)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
         {
-            <div class="row">
-                <div class="col text-center" style="margin-top: 50px">
-                    <ul>
-                        <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px">
-                            <a asp-action="Edit" asp-route-id="@item.Protocolo">Edit</a>
-                            <a asp-action="Details" asp-route-id="@item.Protocolo">Details</a>
-                            <a asp-action="Delete" asp-route-id="@item.Protocolo"> Delete</a>
+            <tr>
+                <th>
+                    @Html.DisplayFor(modelItem => item.Protocolo)
+                </th>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titulo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Texto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataCriacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataResposta)
+                </td>
+                <td>
+                    <br />
+                    <a asp-action="Details" asp-controller="Resposta" asp-route-id="@item.Protocolo">Resposta</a>
+                </td>
 
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                @if (Program.Admin != null)
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Protocolo">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Protocolo">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Protocolo">Delete</a>
+                    </td>
+                }
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Secretaria.Nome)
+                </td>
+
+            </tr>
         }
-
-        <hr style="height: 10px; color: white">
-
-    }
-</body>
-
+    </tbody>
+</table>

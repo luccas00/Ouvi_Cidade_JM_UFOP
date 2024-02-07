@@ -4,84 +4,58 @@
     ViewData["Title"] = "Index";
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"]</title>
-    <style>
-        body {
-            background-color: #7AB6FF;
+<h1>Todas as Noticias</h1>
+
+@if (Program.Admin != null)
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Texto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataCriacao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titulo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Texto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataCriacao)
+                </td>
+                @if (Program.Admin != null)
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    </td>
+                }
+
+            </tr>
         }
-    </style>
-</head>
-<body>
-
-    <h1 class="text-center mt-5 mb-3">Todas as Notícias</h1>
-
-    @if (Program.Admin != null)
-    {
-        <p class="text-center">
-            <a asp-action="Create" class="btn btn-primary">Create New</a>
-        </p>
-    }
-
-    @foreach (var item in Model)
-    {
-
-        <div class="row">
-
-            <div class="col text-center" style="margin-top: 50px">
-
-                <ul>
-                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
-                        <h4>Titulo</h4> @item.Titulo
-                    </li>
-
-                    <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px;">
-                        <h6>Data de Publicação @item.DataCriacao.ToShortDateString()</h6>
-                    </li>
-
-                    @if (Program.Admin != null)
-                    {
-                        <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px">
-                            <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>
-                            <a asp-action="Details" asp-route-id="@item.ID">Details</a>
-                            <a asp-action="Delete" asp-route-id="@item.ID"> Delete</a>
-
-                        </li>
-                    }
-                </ul>
-
-            </div>
-
-            <div class="col text-center">
-
-                <div class="text-center">
-                    <ul>
-                        <li class="nav-item rounded-pill" style="background-color: white; padding: 10px 20px; margin-bottom: 20px">
-                            @item.Texto
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
+    </tbody>
+</table>
 
 
-        <hr style="height: 10px; color: white">
-
-
-    }
-
-    <div class="text-center" style="margin-bottom: 50px">
-        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Página Inicial</a>
-    </div>
-
-
-</body>
-</html>
-
-
-
+<div>
+    <a asp-controller="Home" asp-action="Index">Pagina Inicial</a>
+</div>
